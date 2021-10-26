@@ -82,6 +82,10 @@
     margin: 5px;
 }
 
+.navbar a:hover{
+    color: #DD606F;
+}
+
 @media only screen and (max-width: 900px) {
     .navbar .rightSide a {
         width: 70px;
