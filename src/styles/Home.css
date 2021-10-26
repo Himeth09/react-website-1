@@ -1,6 +1,6 @@
 .home {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -11,43 +11,50 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.headerContainer {
+.header-container {
     width: auto;
     margin-left: 50px;
 }
 
-.headerContainer h1 {
+.header-container h1 {
     justify-content: center;
     align-items: center;
     font-size: 90px;
     height: 60px;
     font-weight: 50;
-    color: black;
+    color: white;
 }
 
-.headerContainer p {
+.header-container p {
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
-    color: black;
+    color: white;
 }
 
-.headerContainer button {
-    color: black;
+.header-container button {
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     justify-content: center;
-    background-color: #121619;
+    background-color: white;
     height: 50px;
     width: 100px;
-    color: white;
+    color: #121619;
     text-decoration: none;
     font-size: 20px;
+    border-color: #121619;
+    border-width: 2px;
+    border-style: solid;
 }
 
-.headerContainer button:hover {
+.header-container button:hover {
     background-color: #07090a;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
     cursor: pointer;
     transition: 0.3s ease-in;
 }
@@ -57,11 +64,8 @@
         justify-content: center;
         align-items: center;
     }
-    .headerContainer h1, .headerContainer p {
 
-    }
-
-    .headerContainer {
+    .header-container {
         margin-left: 0px;
         border-radius: 10px;
         padding: 10px;
@@ -74,25 +78,28 @@
         color: white;
     }
 
-    .headerContainer h1 {
+    .header-container h1 {
         font-size: 40px;
         height: 30px;
         color: white;
     }
 
-    .headerContainer p {
+    .header-container p {
         font-size: 30px;
         color: white;
     }
 
-    .headerContainer button {
+    .header-container button {
         background-color: white;
         color: #121619;
         margin-bottom: 30px;
     }
 
-    .headerContainer button:hover {
-        background-color: rgb(225, 225, 225);
-        color: #121619;
+    .header-container button:hover {
+        background-color: #121619;
+        color: white;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
     }
 }

@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import ProfileLogo from '../images/fuuka-profile.jpg';
 import {Link} from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
-import '../styles/Navbar.css'
+import '../styles/Navbar.css';
+
 
 function Navbar() {
 
@@ -14,8 +14,9 @@ function Navbar() {
 
     return (
         <div className="navbar">
+            
             <div className="leftSide" id={openLinks ? "open" : "close"}>
-                <img src={ProfileLogo}/>
+                <h3 id="letter-h">h</h3><h3 id ="letter-j">j</h3>
                 <div className="hiddenLinks">
                     <Link to="/">Home</Link>
                     <Link to="/projects">Projects</Link>
