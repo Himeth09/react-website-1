@@ -5,10 +5,9 @@ import '../styles/About.css'
 function About() {
     return (
         <div className="about">
-            <div className="about-top" style={{backgroundImage: `url(${ImageBanner})`}}>
-                
+            <div className="about-left" style={{backgroundImage: `url(${ImageBanner})`}}>
             </div>
-            <div className="about-bottom">
+            <div className="about-right">
                 <h1>About Me</h1>
                 <p>Junior at the University of North Carolina at Charlotte pursuing a Bachelor's in Computer Science with a concentration in Software Engineering.
                 Currently a TA for ITSC 3146 Intro to Operating Systems &amp; Networking. Been using a computer since elementary school, avid gamer and tech enthusiast, been known to tinker around with both hardware and software.
